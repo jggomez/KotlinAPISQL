@@ -9,13 +9,10 @@ Consideraciones:
 
 Como probar:
 - Cambiar la cadena de conexión y password en el archivo de application.properties.
-- Hibernate se encarga de crear la base de datos.
-- Accede por consola o un programa a la base de datos y ejecuta los siguentes comandos
-
-- Insert into accountdb.account(blood_type, date_last_query) values ('A+', '12/05/19')
-- Insert into accountdb.account(blood_type, date_last_query) values ('B+', '12/05/19')
-- Insert into accountdb.allergie(date, medicine, name, account_id) values ('12/05/19', 'ospirin 100mg', 'Rinitivis', 1);
-- Insert into accountdb.allergie( date, medicine, name, account_id) values ('12/05/20', 'Aspirina', 'Otra Alergia', 1);
-- Insert into accountdb.allergie(date, medicine, name, account_id) values ('12/05/19', 'ospirin 100mg', 'Rinitivis', 2)
+- Ejecuta el programa hibernate se encarga de crear la base de datos.
+- Accede por consola o por medio de un programa a la base de datos, asegurate que las tablas esten creadas y ejecuta el script que esta en el directorio de resources.
+- Invoca a las APIs:
+  - localhost:8080/demo/v1/accounts/1
+  - localhost:8080/demo/v1/accounts
 
 Listo!! pronto actualizaciones....
