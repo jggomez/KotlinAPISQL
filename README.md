@@ -10,7 +10,7 @@ Consideraciones:
 Como probar:
 - Cambiar la cadena de conexión y password en el archivo de application.properties.
 - Ejecuta el programa hibernate se encarga de crear la base de datos.
-- Accede por consola o por medio de un programa a la base de datos, asegurate que las tablas esten creadas y ejecuta el script que esta en el directorio de resources.
+- Accede por consola o por medio de un programa a la base de datos, asegurate que las tablas esten creadas y ejecuta el script que esta en el directorio de "src/main/resources".
 - Invoca a las APIs:
   - localhost:8080/demo/v1/accounts/1
   - localhost:8080/demo/v1/accounts
